@@ -4,3 +4,18 @@ server.port=8070
 # Frontend URL (Private Variable)
 # Used for CORS and cross-origin requests
 app.frontend.url=http://localhost:8090
+
+# PostgreSQL Database Configuration
+spring.datasource.url=jdbc:://:/
+spring.datasource.username=chat_user_new
+spring.datasource.password=chatdb@123@321
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA/Hibernate Configuration
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.jdbc.batch_size=20
+spring.jpa.properties.hibernate.order_inserts=true
+spring.jpa.properties.hibernate.order_updates=true

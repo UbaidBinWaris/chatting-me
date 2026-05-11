@@ -1,0 +1,14 @@
+*.log
+.gradle/
+build/
+.idea/
+*.iml
+out/
+*.class
+.DS_Store
+node_modules/
+.env.local
+.next/
+dist/
+.venv/
+__pycache__/

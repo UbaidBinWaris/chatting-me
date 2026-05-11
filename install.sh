@@ -24,6 +24,7 @@ echo -e "${GREEN}✓ Backend dependencies installed${NC}\n"
 echo -e "${BLUE}Installing frontend dependencies...${NC}"
 cd frontend
 npm install
+npm run build
 cd ..
 
 echo -e "${GREEN}✓ Frontend dependencies installed${NC}\n"
