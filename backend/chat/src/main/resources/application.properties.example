@@ -1,7 +1,6 @@
-spring.application.name=chat
-
 # Server Configuration
 server.port=8070
 
 # Frontend URL (Private Variable)
+# Used for CORS and cross-origin requests
 app.frontend.url=http://localhost:8090
